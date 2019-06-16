@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+#headermenu{
+	display: table;
+}
+
+#headermenu div {
+	display:table-cell; 
+	padding-right: 20px;
+}
+
+a:link {
+	color: cornflowerBlue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: indigo;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:active {
+	color: red;
+}
+
+#headermenu a:link {
+	font-size: larger;
+}
+
+.pageheading {
+	color: darkblue;
+}
+
+table {
+	border: 1px solid black;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th, td {
+	padding: 8px;
+}
+
+th {
+	background: darkblue;
+	color: cornsilk;
+	font-size: larger;
+}
+
+table.form {
+	border: 0;
+	padding: 4px;
+	width: 80%;
+	padding: 10px;
+}
+
+table.customer {
+	border: 0;
+}
+
+button {
+	padding: 6px;
+	border-radius: 5px;
+}
+
+button[type=submit] {
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: white;
+	color: green;
+}
+
+input {
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: green;
+	height: 20px;
+}
+
+.message {
+	font-style: italic;
+	color: blue;
+}
+
+.error {
+	color: red;
+	font-style: italic;
+	margin: 5px;
+}
+
+div.center {
+	text-align: center;
+}
+
+table.book {
+	width: 80%;
+	border: 0;
+	margin: 0 auto;
+}
+
+div.Dbook{
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+}
+
+div.book_group {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div.next_row {
+	clear: both;
+}
+
+img.book_small {
+	width: 128px;
+	height: 164px;
+}
+
+img.book_large {
+	width: 240px;
+	height: 300px;
+}
+
+img.logo {
+	width: 240px;
+	height: 600px;
+}
+
+#book_title {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#book_author {
+	font-size: large;
+	font-style: italic;
+}
+
+#book_description {
+	text-align: justify;
+	vertical-align: top;
+}
+
+#search_image {
+	display: inline-block;
+	margin: 20px;
+	width: 10%;
+}
+
+#search_description{
+	display: inline-block; 
+	margin: 20px; 
+	vertical-align: top; 
+	width: 50%;
+	text-align: left;
+}
+
+#search_price {
+	display: inline-block; 
+	margin: 20px; 
+	vertical-align: top;
+}
