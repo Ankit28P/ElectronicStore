@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.password">HU</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost/productstoreDB</property>
-        <property name="hibernate.connection.username">GRAND695</property>
+        <property name="hibernate.connection.password">Ankit28*</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/productstoredb</property>
+        <property name="hibernate.connection.username">GRAND699</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     </session-factory>
 </hibernate-configuration>

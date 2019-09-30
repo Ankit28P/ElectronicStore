@@ -13,7 +13,7 @@ public class JpaDAO<E> {
 	private static EntityManagerFactory entityManagerFactory;
 	
 	static {
-		entityManagerFactory = Persistence.createEntityManagerFactory("productstoreDB");
+		entityManagerFactory = Persistence.createEntityManagerFactory("ProductStoreWebsite");
 
 	}
 	
